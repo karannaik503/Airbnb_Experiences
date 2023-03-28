@@ -10,4 +10,128 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    margin: 0px;
+    height: 100vh;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80px;
+  position: fixed;
+  left:0px;
+  right: 0px;
+  top: 0px;
+  border: none;
+  box-shadow: 0px 1px 7px rgba(48, 48, 48, 0.731);
+  flex-basis: 35%;
+  background-color: white ;
+}
+
+.logo{
+  width: 100px;
+  margin-left: 50px;
+}
+
+.hero-page{
+  margin-top: 95px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 100px;
+}
+
+.hero-img{
+  margin-left: 145px;
+  width: 80%;
+}
+
+.hero-page>h1,
+.hero-page>p{
+  margin-left: 80px;
+}
+
+.hero-page>h1{
+  font-size: 70px;
+  font-weight: 630;
+  margin-bottom: 0px;
+}
+
+.hero-page>p{
+  font-size: 30px;
+  color: #222222;
+  max-width: 550px;
+}
+
+
+.cards-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 100px;
+  padding: 10px 100px;
+  overflow-x: auto;
+  overflow: hidden;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.card-image{
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+
+.card-stats>span{
+  font-size: 18px;
+}
+
+.star-img{
+  width: 15px;
+  margin-right: 5px;
+}
+
+.rating{
+  margin-right: 5px;
+}
+
+.review-count{
+  margin-right: 8px;
+  color: #918E9B;
+}
+
+.location{
+  color: #918E9B;
+}
+
+.card>p{
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.price{
+  font-weight: 700;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
